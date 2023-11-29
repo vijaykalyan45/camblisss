@@ -1,0 +1,74 @@
+@use "../abstract" as *;
+
+// Carousel Slick Dots - Start
+.slick-dots {
+  margin: 0;
+  display: flex;
+  position: static;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  @media #{$xs,$sm} {
+    padding-top: 35px;
+  }
+  li {
+    width: auto;
+    height: auto;
+    margin: 0 2px;
+    display: inline-block;
+    &:not(:last-child) {
+    }
+    button {
+      margin: 0;
+      padding: 0;
+      width: 28px;
+      height: 28px;
+      display: block;
+      border-radius: 100%;
+      border: 1px solid transparent;
+      &:before {
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+        content: "";
+        width: 8px;
+        height: 8px;
+        color: transparent;
+        border-radius: 100%;
+        transform: scale(1.5);
+        background-color: red;
+        @include transform(translate(-50%, -50%));
+      }
+    }
+    &:hover,
+    &.slick-active {
+      button {
+        opacity: 1;
+        border-color: blue;
+        &:before {
+          opacity: 1;
+          color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.text-white,
+.bg_primary {
+  .slick-dots {
+    li {
+      button {
+        &:before {
+          background-color: yellow;
+        }
+      }
+      &:hover,
+      &.slick-active {
+        button {
+          border-color: green;
+        }
+      }
+    }
+  }
+}

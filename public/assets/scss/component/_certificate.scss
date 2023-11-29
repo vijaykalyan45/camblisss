@@ -1,0 +1,62 @@
+@use "../abstract" as *;
+
+
+
+.certificate-img {
+  img {
+    width: 100%;
+  }
+}
+
+.fm-slider-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.fm-slider-prev {
+  color: var(--clr-theme-1);
+  border-color: var(--clr-theme-1);
+  position: relative;
+
+  &:before {
+    position: absolute;
+    height: 1px;
+    background: var(--clr-theme-1);
+    width: 60px;
+    content: "";
+    inset-inline-start: -84px;
+    top: 27px;
+  }
+
+  &:hover {
+    color: var(--clr-common-white);
+    border-color: var(--clr-theme-1);
+    background: var(--clr-theme-1);
+  }
+}
+
+.fm-slider-next {
+  color: var(--clr-theme-1);
+  border-color: var(--clr-theme-1);
+  position: relative;
+
+  &:before {
+    position: absolute;
+    height: 1px;
+    background: var(--clr-theme-1);
+    width: 60px;
+    content: "";
+    inset-inline-end: -84px;
+    top: 27px;
+  }
+
+  &:hover {
+    color: var(--clr-common-white);
+    border-color: var(--clr-theme-1);
+    background: var(--clr-theme-1);
+  }
+}

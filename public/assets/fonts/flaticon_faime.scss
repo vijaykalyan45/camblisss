@@ -1,0 +1,65 @@
+$flaticon_faime-font: "flaticon_faime";
+
+@font-face {
+    font-family: $flaticon_faime-font;
+    src: url("./flaticon_faime.ttf?f561c42464e218622d9f3368df877a28") format("truetype"),
+url("./flaticon_faime.woff?f561c42464e218622d9f3368df877a28") format("woff"),
+url("./flaticon_faime.woff2?f561c42464e218622d9f3368df877a28") format("woff2"),
+url("./flaticon_faime.eot?f561c42464e218622d9f3368df877a28#iefix") format("embedded-opentype"),
+url("./flaticon_faime.svg?f561c42464e218622d9f3368df877a28#flaticon_faime") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_faime !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_faime-map: (
+    "right-arrow": "\f101",
+    "right-arrow-1": "\f102",
+    "right-arrow-2": "\f103",
+    "search-interface-symbol": "\f104",
+    "loupe": "\f105",
+    "search": "\f106",
+    "tv-show": "\f107",
+    "award": "\f108",
+    "director": "\f109",
+    "fireworks": "\f10a",
+);
+
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_faime-map, "right-arrow");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon_faime-map, "right-arrow-1");
+}
+.flaticon-right-arrow-2:before {
+    content: map-get($flaticon_faime-map, "right-arrow-2");
+}
+.flaticon-search-interface-symbol:before {
+    content: map-get($flaticon_faime-map, "search-interface-symbol");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon_faime-map, "loupe");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_faime-map, "search");
+}
+.flaticon-tv-show:before {
+    content: map-get($flaticon_faime-map, "tv-show");
+}
+.flaticon-award:before {
+    content: map-get($flaticon_faime-map, "award");
+}
+.flaticon-director:before {
+    content: map-get($flaticon_faime-map, "director");
+}
+.flaticon-fireworks:before {
+    content: map-get($flaticon_faime-map, "fireworks");
+}

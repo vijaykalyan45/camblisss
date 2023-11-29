@@ -1,0 +1,131 @@
+/* Terms Conditions Template - Start
+================================================== */
+
+@use "../abstract" as *;
+
+.terms_conditions_content {
+	padding: 40px;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+
+	@media #{$xs} {
+		padding: 30px;
+	}
+
+	.warpper_title {
+		font-size: 38px;
+		line-height: 1.3;
+		margin-bottom: 30px;
+
+		@media #{$xs,$sm,$lg,$md} {
+			font-size: 28px;
+		}
+
+		@media #{$xs} {
+			font-size: 26px;
+		}
+	}
+
+	p {
+		font-size: 17px;
+		line-height: 27px;
+		margin-bottom: 30px;
+	}
+
+	.info_title {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.icon_list {
+		margin-bottom: 40px;
+	}
+
+	.icon_list.unordered_list_block>li:not(:last-child) {
+		margin-bottom: 14px;
+	}
+
+	.icon_list .list_item_text {
+		color: var(--clr-body-text);
+	}
+
+	.icon_list .list_item_icon {
+		display: none;
+	}
+
+	.link {
+		font-size: 17px;
+		font-weight: 600;
+		line-height: 27px;
+		color: var(--clr-theme-1);
+		text-decoration: underline;
+	}
+
+	.author_mail {
+		&:hover {
+			color: var(--clr-theme-1);
+		}
+	}
+}
+
+.nav.tabs_nav_boxed {
+	padding: 30px 0;
+	border-radius: 12px;
+	border: 1px solid rgba(23, 23, 23, 0.062745098);
+
+	@media #{$xs,$sm,$md} {
+		margin-bottom: 30px;
+	}
+}
+
+.tabs_nav_boxed button {
+	display: flex;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 27px;
+	padding: 10px 40px;
+	position: relative;
+	align-items: center;
+	color: var(--clr-common-black);
+}
+
+.tabs_nav_boxed button i {
+	opacity: 0;
+	font-size: 10px;
+	margin-right: 10px;
+	line-height: 1;
+	color: var(--clr-theme-1);
+	transform: translateX(-10px);
+	transition: .3s cubic-bezier(.5, 1, .89, 1);
+}
+
+.tabs_nav_boxed button.active i {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.tabs_nav_boxed button:hover,
+.tabs_nav_boxed button.active {
+	color: var(--clr-theme-1);
+}
+
+.terms_conditions_content .icon_list .list_item_text {
+	font-family: "Montserrat", sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	color: var(--clr-body-text3);
+	line-height: 27px;
+	margin-bottom: 30px;
+}
+
+.faime_list_item {
+	font-family: "Montserrat", sans-serif;
+	color: #000;
+	font-weight: 700;
+	line-height: 1.2;
+	list-style: none;
+	transition: all 0.3s ease-out 0s;
+}
+
+/* Terms Conditions Template - End
+================================================== */

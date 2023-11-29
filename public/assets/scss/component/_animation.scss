@@ -1,0 +1,42 @@
+/*#############################
+##############################
+10. Animation CSS
+##############################
+#############################*/
+@use "../abstract" as *;
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-infinite-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// icon animation
+@keyframes iconltr {
+  49% {
+    transform: translateX(30%);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+
+  51% {
+    opacity: 1;
+  }
+}

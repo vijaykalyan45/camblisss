@@ -1,0 +1,73 @@
+/*#############################
+##############################
+06. Brand CSS
+##############################
+#############################*/
+@use "../abstract" as *;
+
+// home-1
+.fm-brand {
+  height: 171px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #17171710;
+
+  &.is-white {
+    border-color: var(--clr-border-2);
+  }
+
+  svg * {
+    fill: #6e777d;
+  }
+
+  img {
+    margin: 0 auto;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    svg * {
+      fill: #fd6500;
+    }
+
+    img {
+      opacity: 1;
+    }
+  }
+}
+
+// home-2
+.brand-hover {
+  transition: all 0.3s ease-out 0s;
+
+  img {
+    margin: 0 auto;
+    filter: grayscale(100%);
+    opacity: 45%;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      filter: none;
+      opacity: 1;
+    }
+  }
+}
+
+
+.fm-contact-time {
+  font-size: 16px;
+  color: #777;
+  line-height: 2.2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fm-contact-meta-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
