@@ -11,6 +11,7 @@ import FooterOne from "@layout/footers/footer-one";
 import HeaderTwo from "@layout/headers/header-two";
 import HeroTwo from "./hero-two";
 import { Header } from "@layout/index";
+import PricingSection from "@components/service/pricing-section";
 
 const index = () => {
   return (
@@ -27,6 +28,7 @@ const index = () => {
         {/* <BlogSectionTwo/> */}
         
         <BrandAreaSection />
+        <PricingSection/>
         <ContactSection />
       </main>
       <FooterOne />

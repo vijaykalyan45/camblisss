@@ -5,6 +5,7 @@ import FooterOne from "@layout/footers/footer-one";
 import { Header } from "@layout/index";
 import React from "react";
 import ServiceDetails from "./service-details";
+import PricingSection from "@components/service/pricing-section";
 
 const index = ({ id }) => {
   return (
@@ -13,7 +14,8 @@ const index = ({ id }) => {
       <main>
         <Breadcrumb title="Service Details" subTitle="Service Details" />
         <ServiceDetails id={id} />
-        <CaseQouteArea />
+        {/* <CaseQouteArea /> */}
+        <PricingSection/>
         <ContactSection />
       </main>
       <FooterOne />

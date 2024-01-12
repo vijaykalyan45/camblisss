@@ -10,6 +10,7 @@ import TeamSection from '../common/team/team-section';
 
 import FooterOne from '@layout/footers/footer-one';
 import ContactSection from '@components/common/contact/contact-area';
+import PricingSection from '@components/service/pricing-section';
 
 const index = () => {
     return (
@@ -22,6 +23,7 @@ const index = () => {
                 <FilmsArea />
                 {/* <TestimonialOne /> */}
                 <TeamSection />
+                <PricingSection/>
                 <ContactSection />
             </main>
             <FooterOne />

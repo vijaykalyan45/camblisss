@@ -92,7 +92,7 @@ import avishek from "@assets/img/logo/avishek.jpg";
 import bismay from "@assets/img/logo/bismay.jpg";
 import gabriel from "@assets/img/logo/gabriel.jpg";
 import vijay from "@assets/img/logo/vijay.jpg";
-import anthony from "@assets/img/logo/anthony.jpg";
+import arjun from "@assets/img/logo/arjun.png";
 import pravath from "@assets/img/logo/pravath.png";
 import pramod from "@assets/img/logo/Pramod.png";
 
@@ -124,10 +124,10 @@ const TeamSection = () => {
     },
     {
       _id: "3",
-      teamName: "Anthony",
+      teamName: "Arjun",
       // director: "Director",
-      designation: "HR",
-      teamImg:anthony,
+      designation: "Photographer",
+      teamImg:arjun,
       delay: "0.6s",
       // socialIcons: [
       //   { _id: "3", icon: "fa-linkedin", url: "https://www.linkedin.com/" },

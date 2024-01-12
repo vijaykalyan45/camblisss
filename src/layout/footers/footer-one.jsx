@@ -38,7 +38,10 @@ const FooterOne = () => {
                   </div>
                   <div className="footer-text">
                     <p>
-                      Turning your bussiness ideas into smart digital products.
+                    Home<br/>
+                    About Us<br/>
+                    Services<br/>
+                    Contact<br/>
                     </p>
                   </div>
                 </div>

@@ -23,7 +23,7 @@ const HeroTwo = () => {
                     style={{ width: "100%", height: "auto" }}
                     alt="img not found"
                   />
-                </div>
+                </div><br/><br/>
                 <div className="fm-hero-title-wrapper">
                   <h1 className="fm-sec-title text-white">
                     <span className="sec-title-3 sec-title-left">

@@ -542,8 +542,8 @@
 
 .fm-hero-title-wrapper {
   position: absolute;
-  top: 16%;
-  inset-inline-start: 45px;
+  top: 10%;
+  inset-inline-start: 145px;
   width: 100%;
   z-index: 2;
 
@@ -650,6 +650,7 @@
 .fm-hero-thumb-2 {
   margin-bottom: 60px;
   max-width: 380px;
+  margin-top: 20px;
 
   @media #{$xxl} {
     margin-bottom: 50px;

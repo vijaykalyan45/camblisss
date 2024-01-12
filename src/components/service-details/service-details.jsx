@@ -2,7 +2,7 @@ import FaqSection from "@components/portfolo-details-page/faq-section";
 import GallarySection from "@components/portfolo-details-page/gallary";
 import React from "react";
 import StepAreaSection from "./step-area-section";
-import PortfolioSliderTwo from "@components/elements/slider/portfolio-slider/portfolio-slider-two";
+// import PortfolioSliderTwo from "@components/elements/slider/portfolio-slider/portfolio-slider-two";
 import ServiceMiddle from "./service-middle";
 import CaseSubtitleIcon from "@svg/case-subtitle-icon";
 import useGlobalContext from "@hooks/use-context";
@@ -30,15 +30,17 @@ const ServiceDetails = ({ id }) => {
           <ServiceMiddle />
         </div>
       </div>
-      <PortfolioSliderTwo />
+      {/* <PortfolioSliderTwo /> */}
       <div
         className="container section-spacing-bottom wow fadeInUp"
         data-wow-delay="0.3s"
       >
         <div className="row">
           <div className="col-xxl-12">
-            <h4 className="case-subtitle mb-25">
-              <span>
+          <GallarySection />
+
+            {/* <h4 className="case-subtitle mb-25"> */}
+              {/* <span>
                 <CaseSubtitleIcon />
               </span>
               Objective
@@ -62,13 +64,12 @@ const ServiceDetails = ({ id }) => {
               representatives and ad agencies. Secondary objective was to
               present Ali’s story in an immersive way in order to connect with
               his audience and express his love for storytelling and typography.
-            </p>
+            </p> */}
 
             <StepAreaSection />
             <FaqSection />
-            <GallarySection />
-
-            <div className="text-latout">
+        
+            {/* <div className="text-latout">
               <p className="mb-55 ">
                 One of the largest food retailers needed to automate inspection
                 and maintenance processes in their stores and update their
@@ -90,7 +91,7 @@ const ServiceDetails = ({ id }) => {
                 his audience and express his love for storytelling and
                 typography.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

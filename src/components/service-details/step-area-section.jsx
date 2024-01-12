@@ -4,59 +4,59 @@ const StepAreaSection = () => {
   const stepData = [
     {
       id: 1,
-      title: "Script",
-      number: "01",
+      title: "Planning",
+      // number: "01",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        "It's important to develop a timeline, budget, project plan to have clear idea.",
     },
     {
       id: 2,
-      title: "Shot List",
-      number: "02",
+      title: "Design",
+      // number: "02",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        " Create visual representation of the website's structure and layout.",
     },
     {
       id: 3,
-      title: "Story",
-      number: "03",
+      title: "Content Creation",
+      // number: "03",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        "Generating text, images, videos, and other multimedia elements.",
     },
     {
       id: 4,
-      title: "Rehearsals",
-      number: "04",
+      title: "Development",
+      // number: "04",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        "website's visual interface and server-side functionality is implemented.",
     },
     {
       id: 5,
-      title: "Preparation",
-      number: "05",
+      title: "Testing",
+      // number: "05",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        "Identify, enhance and address all types of vulnerabilities.",
     },
     {
       id: 6,
-      title: "Camera",
-      number: "06",
+      title: "Deployment",
+      // number: "06",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        "Integrate and Make the website go live for public access.",
     },
     {
       id: 7,
-      title: "Sound",
-      number: "06",
+      title: "Support & Maintenance",
+      // number: "06",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        "Address any post-launch issues and implement updates.",
     },
     {
       id: 8,
-      title: "Filming",
-      number: "07",
+      title: "Marketing & Promotion",
+      // number: "07",
       description:
-        "It's important to note that these steps are an overview of the filmmaking process.",
+        "Integrate social media channels and marketing efforts.",
     },
   ];
   return (

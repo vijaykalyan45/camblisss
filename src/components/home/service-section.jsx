@@ -85,7 +85,6 @@
 
 
 import React from "react";
-import bgImage from "@assets/img/services/director-service-bg.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import servicessection from "@assets/img/logo/servicessection.png";
@@ -125,6 +124,20 @@ const ServiceSection = () => {
       image: services4,
       delay: "1.2s",
     },
+    {
+      _id: "5",
+      title: "UI/UX",
+      description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
+      image: services4,
+      delay: "1.2s",
+    },
+    {
+      _id: "6",
+      title: "Visual Production",
+      description: "From PPC to SEO, advertisting to content creation we cover all aspects of Digital Marketing",
+      image: services4,
+      delay: "1.2s",
+    },
   ];
 
   return (
@@ -150,7 +163,7 @@ const ServiceSection = () => {
                 </div>
               </div>
               <div className="row g-5 gy-50">
-                {services.slice(0, 4).map((item) => (
+                {services.slice(0, 6).map((item) => (
                   <div
                     className="col-xl-6 col-sm-6 wow fadeInUp"
                     data-wow-delay={item.delay}
